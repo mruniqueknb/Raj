@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:rajpipes}?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Kolkata
     username: ${DB_USER:root}
-    password: ${DB_PASSWORD:Babu@2006}
+    password: ${DB_PASSWORD:xxx}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
